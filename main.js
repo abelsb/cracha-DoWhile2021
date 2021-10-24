@@ -1,9 +1,8 @@
 const userSocialMedias = {
   github: 'abelsb',
-  youtube: 'channel/UC662sCoREKiubnXlloCBhpg',
+  linkedIn: 'in/abel-araujo-b61328224/',
   facebook: 'abel.araujo.50746',
-  instagram: '_abelaraujo',
-  twitter: 'AbeelArauujo'
+  instagram: '_abelaraujo'
 }
 
 function changeSocialMediaLinks() {

@@ -2,6 +2,7 @@
 
 * {
   margin: 0;
+  padding: 0;
 }
 
 html,
@@ -20,9 +21,10 @@ body {
 }
 
 main {
-  background: url(images/background.svg);
-  width: 375px;
-  height: 812px;
+  background: url(images/background.svg) no-repeat center/cover;
+  width: 100vw;
+  min-height: 812px;
+  height: 100vh;
 }
 
 .container {
@@ -41,7 +43,6 @@ main {
 
 .avatar span {
   position: absolute;
-  left: -20px;
   top: -10px;
   z-index: 1;
 }
@@ -79,4 +80,11 @@ ul {
   display: flex;
   gap: 0.5rem;
   justify-content: center;
+}
+
+#ImgLinkedIn:hover,
+#ImgFacebook:hover,
+#ImgInstagram:hover {
+  box-shadow: 0 0 2.5px 0.5px #888;
+  transform: scale(1.15);
 }
