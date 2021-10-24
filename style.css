@@ -1,5 +1,14 @@
 /* Cascating Stylesheet (cascata de estilo de folha) */
 
+@keyframes ro {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -45,6 +54,11 @@ main {
   position: absolute;
   top: -10px;
   z-index: 1;
+  animation-name: ro;
+  animation-duration: 9s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .avatar > img {
